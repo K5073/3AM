@@ -13,7 +13,7 @@ public class LoadingScreen : MonoBehaviour
     private void Start()
     {
         Debug.Log("Loading started."); // 로딩 시작 로그
-        StartCoroutine(LoadSceneAsync("MainScene")); // 로드할 씬 이름으로 변경
+        StartCoroutine(LoadSceneAsync("LobbyScene")); // 로드할 씬 이름으로 변경
     }
 
     private IEnumerator LoadSceneAsync(string sceneName)
