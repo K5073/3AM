@@ -1,0 +1,33 @@
+# 유니티 불필요한 파일 제외
+[Ll]ibrary/
+[Tt]emp/
+/Library/PackageCache/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# 비주얼 스튜디오 & VS Code 관련 파일 제외
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# 유니티 빌드 후 생기는 불필요한 폴더
+/Build/
+/Builds/
+/ExportedObj/
+/MemoryCaptures/
+
+/*.apk
+/*.aab
+/*.unitypackage
